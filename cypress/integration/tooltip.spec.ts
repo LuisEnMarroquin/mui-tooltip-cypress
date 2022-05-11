@@ -1,10 +1,18 @@
 describe("My First Test", () => {
-  beforeEach("Visit course Catalog page", () => {
+  beforeEach("Visit page where is running", () => {
     cy.visit("https://axe.pages.dev");
   });
 
-  it("Does not do much!", () => {
+  it("Testing accessibility on open", () => {
     expect(true).to.equal(true);
+    cy.injectAxe();
+    cy.checkA11y();
+  });
+
+  it("Testing tooltip accessibility", () => {
+    cy.get('[data-testid="DeleteIcon"]').trigger("mouseover");
+    // cy.wait(5000);
+    cy.contains("DeleteText").should("be.visible");
     cy.injectAxe();
     cy.checkA11y();
   });

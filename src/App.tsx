@@ -9,7 +9,7 @@ function App() {
     <Container sx={{ padding: "25px", textAlign: "center" }} role="main">
       <h1>Hello from React</h1>
       <Paper sx={{ padding: "25px" }}>
-        <Tooltip title="Delete">
+        <Tooltip title="DeleteText">
           <IconButton>
             <DeleteIcon />
           </IconButton>
