@@ -1,6 +1,4 @@
 {
-  "name": "mui-tooltip-cypress",
-  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -17,14 +15,14 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.6.4",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "cypress": "cypress open",
+    "cypress:run": "cypress run --spec 'cypress/integration/*.spec.ts'"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-axe": "^0.14.0"
   }
 }

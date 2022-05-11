@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 
 function App() {
   return (
-    <Container sx={{ padding: "25px", textAlign: "center" }}>
+    <Container sx={{ padding: "25px", textAlign: "center" }} role="main">
       <h1>Hello from React</h1>
       <Paper sx={{ padding: "25px" }}>
         <Tooltip title="Delete">
