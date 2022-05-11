@@ -1,5 +1,7 @@
 {
   "video": false,
   "pluginsFile": false,
-  "fixturesFolder": false
+  "fixturesFolder": false,
+  "responseTimeout": 5000,
+  "screenshotOnRunFailure": false
 }
