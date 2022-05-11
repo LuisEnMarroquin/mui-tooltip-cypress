@@ -1,8 +1,21 @@
+import DeleteIcon from "@mui/icons-material/Delete";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
+import Paper from "@mui/material/Paper";
+import Container from "@mui/material/Container";
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Container sx={{ padding: "25px", textAlign: "center" }}>
+      <h1>Hello from React</h1>
+      <Paper sx={{ padding: "25px" }}>
+        <Tooltip title="Delete">
+          <IconButton>
+            <DeleteIcon />
+          </IconButton>
+        </Tooltip>
+      </Paper>
+    </Container>
   );
 }
 
