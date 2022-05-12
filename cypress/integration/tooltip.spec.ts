@@ -1,7 +1,7 @@
 describe("My First Test", () => {
   beforeEach("Visit page where is running", () => {
-    // cy.visit("https://axe.pages.dev");
-    cy.visit("http://localhost:3000");
+    cy.visit("https://axe.pages.dev");
+    // cy.visit("http://localhost:3000");
     cy.injectAxe();
   });
 
