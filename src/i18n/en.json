@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "axe, step by step",
+    "description": "A practical guide to axe-core, browser scans, Cypress tests, accessibility results, and manual review.",
+    "skip": "Skip to content",
+    "kicker": "Practical accessibility guide",
+    "heading": "step by step",
+    "lead": "What axe checks, how to read its results, and how to add useful accessibility checks to your workflow. One page, in English.",
+    "readingTime": "min read",
+    "sections": "sections",
+    "reviewed": "Reviewed October 2026",
+    "footer": "Independent guide: not affiliated with or endorsed by Deque. axe is a trademark of its owners. This page runs no accessibility scanner, cookies, or analytics."
+  },
+  "navigation": {
+    "contents": "Contents"
+  },
+  "callout": {
+    "note": "Note",
+    "tip": "Tip",
+    "warn": "Heads up"
+  },
+  "code": {
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

@@ -1,49 +1,32 @@
 {
+  "name": "axe-guide",
   "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@mui/icons-material": "^5.6.2",
-    "@mui/material": "^5.7.0",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.0",
-    "@types/node": "^17.0.32",
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.3",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.6.4"
-  },
-  "devDependencies": {
-    "cypress": "^9.6.1",
-    "cypress-axe": "^0.14.0"
+  "version": "1.0.0",
+  "description": "A bilingual guide to axe accessibility testing, with no scanner running on the page.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=11.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "cypress": "cypress open",
-    "cypress:run": "cypress run --spec 'cypress/integration/*.spec.ts'"
+    "dev": "vite",
+    "build": "npm run i18n:check && tsc --noEmit && vite build",
+    "test": "node --test tests/*.test.mjs",
+    "i18n:check": "node check-i18n-order.ts",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "i18next": "^26.4.2",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.2"
   }
 }

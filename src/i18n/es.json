@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "axe, paso a paso",
+    "description": "Guía práctica de axe-core, análisis en el navegador, pruebas con Cypress, resultados y revisión manual.",
+    "skip": "Saltar al contenido",
+    "kicker": "Guía práctica de accesibilidad",
+    "heading": "paso a paso",
+    "lead": "Qué revisa axe, cómo leer sus resultados y cómo incorporar pruebas de accesibilidad útiles a tu trabajo. Una sola página, en español.",
+    "readingTime": "min de lectura",
+    "sections": "secciones",
+    "reviewed": "Revisada en octubre de 2026",
+    "footer": "Guía independiente: no está afiliada a Deque ni respaldada por la empresa. axe es marca de sus propietarios. Esta página no ejecuta analizadores de accesibilidad ni usa cookies o analítica."
+  },
+  "navigation": {
+    "contents": "Contenido"
+  },
+  "callout": {
+    "note": "Nota",
+    "tip": "Consejo",
+    "warn": "Ojo"
+  },
+  "code": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "language": {
+    "label": "Idioma",
+    "english": "English",
+    "spanish": "Español"
+  }
+}
