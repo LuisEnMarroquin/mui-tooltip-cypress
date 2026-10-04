@@ -8,9 +8,9 @@ The repository began as a Material UI tooltip and Cypress demo. The guide keeps 
 
 ## Commands
 
-- `npm run dev` — local server at http://localhost:47319.
+- `npm run dev` — local server at http://localhost:45127.
 - `npm run build` — validate translations, typecheck, and build into `build/`.
-- `npm run preview` — serve the build at http://localhost:47369.
+- `npm run preview` — serve the build at http://localhost:45128.
 - `npm test` — basic language detection and persistence tests.
 - `npm run i18n:check` — compare locale keys, order, duplicates, and article section IDs.
 
